@@ -1,0 +1,112 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Tag to enhance the price of the burger */
+.priceTag {
+    background-color: #ff9b2a;
+    background: -webkit-linear-gradient(#ff9b2a, #ffbb0b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff9b2a, #ffbb0b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff9b2a, #ffbb0b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff9b2a, #ffbb0b); /* Standard syntax */
+    color: #ffffff;
+    font-weight: bold !important;
+    text-shadow: 1px 0 2px rgba(0,0,0,.5);
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+
+/* Icon for vegetarian food */
+.vegetarianTag {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    top: 50px;
+    right: 0;
+    background: no-repeat url(../images/veggie.png);
+    background-size: 100% 100%;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

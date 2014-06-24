@@ -1,0 +1,19 @@
+<div class="row marketing">
+  <div highlights></div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <h4>Burger's Menu</h4>
+        <p>Here our selection of amazing burgers:</p>
+    </div>
+</div>
+<div class="row">
+    <div product ng-repeat="burger in burgers"></div>
+</div>
