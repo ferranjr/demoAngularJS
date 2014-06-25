@@ -5,11 +5,10 @@
  *
  **/
 
-const API_URL = 'https://space-burgers.herokuapp.com/';
-
 spacePortDemoApp
     .factory('burgersFactory', function( $http ) {
 
+	var API_URL = 'https://space-burgers.herokuapp.com/';
         $http.defaults.cache = true;
 
         function getBurgers() {
