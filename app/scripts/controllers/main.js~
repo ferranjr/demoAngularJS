@@ -10,9 +10,6 @@
 spacePortDemoApp
     .controller('MainCtrl', function( $scope, burgersFactory, $modal ) {
 
-
-	var API_URL = 'https://space-burgers.herokuapp.com/';
-
         $scope.burgers = [];
 
         $scope.lookUp = function( burgerId ) {
